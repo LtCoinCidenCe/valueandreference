@@ -17,4 +17,7 @@ console.log("mod1.func1.constructor.name === 'AsyncFunction'", mod1.func1.constr
 //mod1.func1.constructor.name === 'AsyncFunction' true
 console.log("mod2.func2.constructor.name === 'AsyncFunction'", mod2.func2.constructor.name === 'AsyncFunction')
 //mod2.func2.constructor.name === 'AsyncFunction' false
+mod2.obj1 = { newObject: true }
+console.log(mod1.obj1);
+//{queue: 'modified'}
 let oo = 0
